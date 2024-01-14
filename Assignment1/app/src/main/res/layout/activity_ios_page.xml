@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".AppPage">
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#4D219A"
+            android:backgroundTint="#5712CF"
+
+            android:inputType="text"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="IOS Development"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" iOS development involves mastering one of two programming languages: Swift or Objective-C.
+To develop iOS apps, you need a Mac computer running the latest version of Xcode. Xcode is Apple's Integrated Development Environment (IDE) for both Mac and iOS apps. Xcode is the graphical interface used to write iOS apps.
+iOS is a multiplatform operating system (OS) created and developed by Apple Inc. for its iPhone. The platform formerly also supported the company's iPad (until 2019) and iPod Touch (until 2022) devices.
+Some say that becoming an iOS developer is not an easy task. However, the demand for iOS developers requires continuous growth to keep up with the ever-changing world of tech.
+
+What Is iOS Development? The Complete Guide For 2023 - Aloa
+
+Aloa
+
+Getting Started with iOS App Development | AWS
+
+AWS
+
+IOS | Apple, Updates, Software, Origin | Britannica
+5 days ago
+
+britannica.com
+
+Is iOS Development Career, The Right Path To Follow?
+
+webskittersacademy.in
+
+What Is iOS Development? (2024 Guide) - BrainStation
+
+
+
+"
+            android:padding="16dp"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>

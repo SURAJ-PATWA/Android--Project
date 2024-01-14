@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".AppPage">
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#4D219A"
+            android:backgroundTint="#5712CF"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Android App Development"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android development is the process of creating applications for Android devices. Android is an open-source operating system, and Google provides guidelines for Android application design.
+Android developers design, build, and maintain Android applications. Their goal is to ensure that applications function correctly and meet the needs of Android users.
+Here are some skills that Android developers need:
+Android foundations
+Android interactivity
+Android UI
+Implementing navigation
+Android testing
+Working with data
+Notifications
+Firebase on Android
+Android Studio is the official integrated development environment (IDE) for building apps for Android devices. The platform provides structured code modules for dividing projects into units of functionality for independent building, testing, and debugging.
+Android apps can be written using Kotlin, Java, and C++ languages.
+Android development has become a popular career option due to the growing market share of Android apps. Once developers learn Android development and start building apps, they can reach millions of users worldwide.
+"
+            android:padding="16dp"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>

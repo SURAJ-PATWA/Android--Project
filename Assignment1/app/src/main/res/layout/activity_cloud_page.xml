@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".AppPage">
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#4D219A"
+            android:backgroundTint="#5712CF"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Cloud technology"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Cloud technology, often referred to as cloud computing,is a paradigm that involves delivering computing services over the internet. Instead of relying on local servers or personal devices to handle computing tasks, users can access and use computing resources, including storage, processing power, and applications, through remote servers hosted on the internet. Cloud technology provides a flexible and scalable approach to computing, allowing organizations and individuals to efficiently use and manage resources without the need for extensive physical infrastructure. Here are key aspects of cloud technology:
+
+        1. **Service Models:**
+        - **Infrastructure as a Service (IaaS):** Provides virtualized computing infrastructure over the internet. Users can rent virtual machines, storage, and network resources.
+        - **Platform as a Service (PaaS):** Offers a platform that includes development tools, middleware, and other resources to build, deploy, and manage applications.
+        - **Software as a Service (SaaS):** Delivers software applications over the internet, eliminating the need for users to install, manage, and maintain the software locally.
+
+        2. **Deployment Models:**
+        - **Public Cloud:** Services are provided by third-party cloud service providers and are available to the general public. Examples include Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).
+        - **Private Cloud:** Services are used exclusively by a single organization. The infrastructure may be owned and managed by the organization or a third party.
+        - **Hybrid Cloud:** Combines elements of both public and private clouds, allowing data and applications to be shared between them.
+
+        3. **Essential Characteristics:**
+        - **On-Demand Self-Service:** Users can provision and manage computing resources as needed without requiring human intervention from the service provider.
+        - **Broad Network Access:** Services are accessible over the network and can be accessed by various devices (e.g., laptops, smartphones, tablets).
+        - **Resource Pooling:** Computing resources are pooled together and dynamically assigned to meet the demand of multiple users.
+        - **Rapid Elasticity:** Resources can be rapidly and elastically scaled up or down based on demand, allowing for flexibility and cost efficiency.
+        - **Measured Service:** Cloud computing resources are metered, and users pay for the resources they consume, promoting cost transparency.
+
+        4. **Benefits:**
+        - **Cost Savings:** Organizations can reduce capital expenditure on physical hardware and infrastructure, paying for only the resources they use.
+        - **Scalability:** Cloud services can scale up or down based on demand, providing flexibility for businesses to adapt to changing requirements.
+        - **Flexibility and Agility:** Cloud technology enables rapid deployment and agility in responding to market changes.
+        - **Accessibility:** Users can access cloud services from anywhere with an internet connection, promoting remote collaboration.
+
+        5. **Common Cloud Services:**
+        - **Infrastructure Services (IaaS):** Virtual machines, storage, and networking resources.
+        - **Platform Services (PaaS):** Development frameworks, databases, and application hosting platforms.
+        - **Software Services (SaaS):** Productivity applications, collaboration tools, and business software.
+
+        6. **Security and Compliance:**
+        - Cloud service providers implement robust security measures, but organizations must also ensure compliance with industry regulations and standards.
+
+        Cloud technology has become an integral part of modern IT infrastructure, transforming the way organizations manage and deliver computing services. Its widespread adoption has led to advancements in technology, increased efficiency, and the democratization of computing resources.
+
+
+        "
+        android:padding="16dp"
+        android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>

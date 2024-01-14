@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".AppPage">
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#4D219A"
+            android:backgroundTint="#5712CF"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Machine Learnig"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Machine learning is a field of artificial intelligence (AI) that focuses on the development of algorithms and models that enable computers to learn from data and make predictions or decisions without being explicitly programmed. The goal of machine learning is to allow computers to automatically learn and improve from experience.
+
+There are several types of machine learning, including:
+
+Supervised Learning: In supervised learning, the algorithm is trained on a labeled dataset, where the input data is paired with corresponding output labels. The model learns to map the input data to the correct output by generalizing patterns from the training data. Common tasks in supervised learning include classification and regression.
+
+Unsupervised Learning: Unsupervised learning involves training a model on an unlabeled dataset, and the algorithm must discover patterns and relationships within the data on its own. Clustering and dimensionality reduction are common unsupervised learning tasks.
+
+Semi-Supervised Learning: This is a combination of supervised and unsupervised learning. The model is trained on a dataset that contains both labeled and unlabeled data, and it learns from the labeled examples while also trying to find patterns in the unlabeled data.
+
+Reinforcement Learning: In reinforcement learning, an agent learns to make decisions by interacting with an environment. The agent receives feedback in the form of rewards or penalties based on the actions it takes. The goal is for the agent to learn a policy that maximizes the cumulative reward over time.
+
+Deep Learning: Deep learning is a subset of machine learning that involves neural networks with many layers (deep neural networks). These networks, known as deep neural networks or artificial neural networks, are particularly effective at learning hierarchical representations of data and have been successful in various applications, such as image and speech recognition.
+
+Machine learning is used in a wide range of applications, including natural language processing, computer vision, speech recognition, recommendation systems, autonomous vehicles, and many more. The success of machine learning often depends on the quality and quantity of the training data, the chosen algorithm, and the tuning of various parameters.
+
+
+
+
+
+
+"
+            android:padding="16dp"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>

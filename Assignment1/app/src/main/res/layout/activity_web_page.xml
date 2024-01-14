@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".AppPage">
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#4D219A"
+            android:backgroundTint="#5712CF"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text=" Web Development"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Web development is the process of creating and maintaining websites and web applications. It involves tasks such as: Web design, Content creation, Coding, Network configuration.
+The goal of web development is to create websites that are functional, visually appealing, and accessible on the internet
+There are three main types of web development:
+Front-end development
+Back-end development
+Full stack development
+Website developers use programming languages like HTML, CSS, and JavaScript to develop websites and web applications.
+To become a web developer, you should have an understanding of HTML, CSS, and JavaScript. It's also recommended to learn about CSS and CSS frameworks.
+Here are some steps you can take to become a web developer:
+Earn a degree
+Pursue internships
+Build your portfolio
+Earn certifications
+Create your resume
+
+"
+            android:padding="16dp"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>
